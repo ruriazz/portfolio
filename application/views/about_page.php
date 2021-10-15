@@ -20,8 +20,8 @@
     <meta name="theme-color" content="#100f3a" />
     <title>ruriazz | About</title>
 
-    <link rel="stylesheet" type="text/css" href="styles%2c_bootstrap-4.1.2%2c_bootstrap.min.css%2bplugins%2c_font-awesome-4.7.0%2c_css%2c_font-awesome.min.css%2bplugins%2c_mCustomScrollbar%2c_jquery.mCustomScrollbar.css.pagespeed" />
-    <link rel="stylesheet" type="text/css" href="styles/A.main_styles.css%2bresponsive.css%2cMcc.XmWk37h9kZ.css.pagespeed.cf.M1Pf6lBd_y.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('styles%2c_bootstrap-4.1.2%2c_bootstrap.min.css%2bplugins%2c_font-awesome-4.7.0%2c_css%2c_font-awesome.min.css%2bplugins%2c_mCustomScrollbar%2c_jquery.mCustomScrollbar.css.pagespeed'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('styles/A.main_styles.css%2bresponsive.css%2cMcc.XmWk37h9kZ.css.pagespeed.cf.M1Pf6lBd_y.css') ?>" />
     <?php if (isset($src) && $src->css) echo '<link rel="stylesheet" type="text/css" href="'.$src->css.'">'; ?>
 </head>
 
@@ -94,20 +94,20 @@
         </div>
         <?php $this->load->view('templates/footer'); ?>
     </div>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="styles/bootstrap-4.1.2/popper.js"></script>
-    <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-    <script src="plugins/greensock/TweenMax.min.js"></script>
-    <script src="plugins/greensock%2c_TimelineMax.min.js%2bscrollmagic%2c_ScrollMagic.min.js%2bgreensock%2c_animation.gsap.min.js%2bgreensock%2c_ScrollToPlugin.min.js.pagespeed.jc.wtdVidDD2e.17"></script>
+    <script src="<?php echo base_url('js/jquery-3.2.1.min.js') ?>"></script>
+    <script src="<?php echo base_url('styles/bootstrap-4.1.2/popper.js') ?>"></script>
+    <script src="<?php echo base_url('styles/bootstrap-4.1.2/bootstrap.min.js') ?>"></script>
+    <script src="<?php echo base_url('plugins/greensock/TweenMax.min.js') ?>"></script>
+    <script src="<?php echo base_url('plugins/greensock%2c_TimelineMax.min.js%2bscrollmagic%2c_ScrollMagic.min.js%2bgreensock%2c_animation.gsap.min.js%2bgreensock%2c_ScrollToPlugin.min.js.pagespeed.jc.wtdVidDD2e.17'); ?>"></script>
     <script>
         eval(mod_pagespeed_VKQ0LG0$ZI);
         eval(mod_pagespeed_jXpAJz1XpV);
         eval(mod_pagespeed_479Yn8bvzx);
         eval(mod_pagespeed_cQz899P46w);
     </script>
-    <script src="plugins/progressbar/progressbar.js"></script>
-    <script src="plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
-    <script src="plugins%2c_easing%2c_easing.js%2bplugins%2c_parallax-js-master%2c_parallax.min.js%2bjs%2c_custom.js.pagespeed.jc.Rb_NLULxCA.js"></script>
+    <script src="<?php echo base_url('plugins/progressbar/progressbar.js'); ?>"></script>
+    <script src="<?php echo base_url('plugins/mCustomScrollbar/jquery.mCustomScrollbar.js'); ?>"></script>
+    <script src="<?php echo base_url('plugins%2c_easing%2c_easing.js%2bplugins%2c_parallax-js-master%2c_parallax.min.js%2bjs%2c_custom.js.pagespeed.jc.Rb_NLULxCA.js'); ?>"></script>
     <script>
         eval(mod_pagespeed_JeFeMLgLr7);
         eval(mod_pagespeed_RL09Ilmv43);
