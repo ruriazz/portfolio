@@ -8,8 +8,8 @@
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="SISDABIMA">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#100f3a">
+    <meta name="apple-mobile-web-app-title" content="ruriazz">
     <link rel="apple-touch-icon" href="<?php echo base_url('assets/icons/Icon-192.png'); ?>">
 
     <meta name="author" content="ruriazz | warkopwarawiri.id">
@@ -18,9 +18,9 @@
 
     <meta name="theme-color" content="#100f3a" />
     <title>ruriazz | Skills</title>
-    
-    <link rel="stylesheet" type="text/css" href="A.styles%2c%2c_bootstrap-4.1.2%2c%2c_bootstrap.min.css%2bplugins%2c%2c_font-awesome-4.7.0%2c%2c_css%2c%2c_font-awesome.min.css%2bplugins%2c%2c_mCustomScrollbar%2c%2c_jquery.mCustomScrollbar.css%2cM" />
-    <link rel="stylesheet" type="text/css" href="styles/A.skills.css%2bskills_responsive.css%2cMcc.xGqKkXsFFx.css.pagespeed.cf.ZBDiOhstKN.css" />
+
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('A.styles,,_bootstrap-4.1.2,,_bootstrap.min.css+plugins,,_font-awesome-4.7.0,,_css,,_font-awesome.min.css+plugins,,_mCustomScrollbar,,_jquery.mCustomScrollbar.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('styles/A.skills.css+skills_responsive.css,Mcc.xGqKkXsFFx.css.pagespeed.cf.ZBDiOhstKN.css'); ?>" />
     <?php if (isset($src) && $src->css) echo '<link rel="stylesheet" type="text/css" href="'.$src->css.'">'; ?>
 </head>
 
@@ -133,20 +133,20 @@
             <?php $this->load->view('templates/footer') ?>
         </div>
     </div>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="styles/bootstrap-4.1.2/popper.js"></script>
-    <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-    <script src="plugins/greensock/TweenMax.min.js"></script>
-    <script src="plugins/greensock%2c_TimelineMax.min.js%2bscrollmagic%2c_ScrollMagic.min.js%2bgreensock%2c_animation.gsap.min.js%2bgreensock%2c_ScrollToPlugin.min.js.pagespeed.jc.wtdVidDD2e.17"></script>
+    <script src="<?php echo base_url('js/jquery-3.2.1.min.js'); ?>"></script>
+    <script src="<?php echo base_url('styles/bootstrap-4.1.2/popper.js'); ?>"></script>
+    <script src="<?php echo base_url('styles/bootstrap-4.1.2/bootstrap.min.js'); ?>"></script>
+    <script src="<?php echo base_url('plugins/greensock/TweenMax.min.js') ?>"></script>
+    <script src="<?php echo base_url('plugins/greensock,_TimelineMax.min.js+scrollmagic,_ScrollMagic.min.js+greensock,_animation.gsap.min.js+greensock,_ScrollToPlugin.min.js.pagespeed.jc.wtdVidDD2e.17.js'); ?>"></script>
     <script>
         eval(mod_pagespeed_VKQ0LG0$ZI);
         eval(mod_pagespeed_jXpAJz1XpV);
         eval(mod_pagespeed_479Yn8bvzx);
         eval(mod_pagespeed_cQz899P46w);
     </script>
-    <script src="plugins/progressbar/progressbar.js"></script>
-    <script src="plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
-    <script src="plugins%2c_easing%2c_easing.js%2bplugins%2c_parallax-js-master%2c_parallax.min.js%2bjs%2c_skills.js.pagespeed.jc.2IZHCv7LVg.js"></script>
+    <script src="<?php echo base_url('plugins/progressbar/progressbar.js'); ?>"></script>
+    <script src="<?php echo base_url('plugins/mCustomScrollbar/jquery.mCustomScrollbar.js'); ?>"></script>
+    <script src="<?php echo base_url('plugins,_easing,_easing.js+plugins,_parallax-js-master,_parallax.min.js+js,_skills.js.pagespeed.jc.2IZHCv7LVg.js'); ?>"></script>
     <script>
         eval(mod_pagespeed_JeFeMLgLr7);
         eval(mod_pagespeed_RL09Ilmv43);

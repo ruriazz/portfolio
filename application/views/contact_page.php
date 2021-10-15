@@ -8,8 +8,8 @@
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="SISDABIMA">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#100f3a">
+    <meta name="apple-mobile-web-app-title" content="ruriazz">
     <link rel="apple-touch-icon" href="<?php echo base_url('assets/icons/Icon-192.png'); ?>">
 
     <meta name="author" content="ruriazz | warkopwarawiri.id">
@@ -19,8 +19,8 @@
     <meta name="theme-color" content="#100f3a" />
     <title>ruriazz | Contact</title>
 
-    <link rel="stylesheet" type="text/css" href="A.styles%2c%2c_bootstrap-4.1.2%2c%2c_bootstrap.min.css%2bplugins%2c%2c_font-awesome-4.7.0%2c%2c_css%2c%2c_font-awesome.min.css%2bplugins%2c%2c_mCustomScrollbar%2c%2c_jquery.mCustomScrollbar.css%2cM" />
-    <link rel="stylesheet" type="text/css" href="styles/A.contact.css%2bcontact_responsive.css%2cMcc.hRUy9gy2gJ.css.pagespeed.cf.2JaDqfjHwP.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('A.styles,,_bootstrap-4.1.2,,_bootstrap.min.css+plugins,,_font-awesome-4.7.0,,_css,,_font-awesome.min.css+plugins,,_mCustomScrollbar,,_jquery.mCustomScrollbar.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('styles/A.contact.css+contact_responsive.css,Mcc.hRUy9gy2gJ.css.pagespeed.cf.2JaDqfjHwP.css'); ?>" />
     <?php if (isset($src) && $src->css) echo '<link rel="stylesheet" type="text/css" href="'.$src->css.'">'; ?>
 </head>
 
@@ -68,11 +68,11 @@
             <?php $this->load->view('templates/footer'); ?>
         </div>
     </div>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="styles/bootstrap-4.1.2/popper.js"></script>
-    <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-    <script src="plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
-    <script src="plugins%2c_easing%2c_easing.js%2bplugins%2c_parallax-js-master%2c_parallax.min.js%2bjs%2c_contact.js.pagespeed.jc.mUHUan8tjF.js"></script>
+    <script src="<?php echo base_url('js/jquery-3.2.1.min.js'); ?>"></script>
+    <script src="<?php echo base_url('styles/bootstrap-4.1.2/popper.js'); ?>"></script>
+    <script src="<?php echo base_url('styles/bootstrap-4.1.2/bootstrap.min.js'); ?>"></script>
+    <script src="<?php echo base_url('plugins/mCustomScrollbar/jquery.mCustomScrollbar.js'); ?>"></script>
+    <script src="<?php echo base_url('plugins,_easing,_easing.js+plugins,_parallax-js-master,_parallax.min.js+js,_contact.js.pagespeed.jc.mUHUan8tjF.js'); ?>"></script>
     <script>
         eval(mod_pagespeed_JeFeMLgLr7);
         eval(mod_pagespeed_RL09Ilmv43);

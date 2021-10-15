@@ -1,0 +1,24 @@
+[15-Oct-2021 04:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'CI_Controller' not found in /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/CodeIgniter.php:369
+Stack trace:
+#0 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/application/views/errors/html/error_exception.php(4): get_instance()
+#1 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/Exceptions.php(219): include('/home/prymmuzf/...')
+#2 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/Common.php(659): CI_Exceptions->show_exception(Object(Error))
+#3 [internal function]: _exception_handler(Object(Error))
+#4 {main}
+  thrown in /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/CodeIgniter.php on line 369
+[15-Oct-2021 04:41:28 UTC] PHP Fatal error:  Uncaught Error: Class 'CI_Controller' not found in /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/CodeIgniter.php:369
+Stack trace:
+#0 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/application/views/errors/html/error_exception.php(4): get_instance()
+#1 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/Exceptions.php(219): include('/home/prymmuzf/...')
+#2 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/Common.php(659): CI_Exceptions->show_exception(Object(Error))
+#3 [internal function]: _exception_handler(Object(Error))
+#4 {main}
+  thrown in /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/CodeIgniter.php on line 369
+[15-Oct-2021 05:05:19 UTC] PHP Fatal error:  Uncaught Error: Class 'CI_Controller' not found in /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/CodeIgniter.php:369
+Stack trace:
+#0 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/application/views/errors/html/error_exception.php(4): get_instance()
+#1 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/Exceptions.php(219): include('/home/prymmuzf/...')
+#2 /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/Common.php(659): CI_Exceptions->show_exception(Object(Error))
+#3 [internal function]: _exception_handler(Object(Error))
+#4 {main}
+  thrown in /home/prymmuzf/sites/warkopwarawiri.id/portfolio/ruriazz/system/core/CodeIgniter.php on line 369

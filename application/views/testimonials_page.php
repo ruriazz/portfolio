@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ruriazz | Testimonials</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles%2c_bootstrap-4.1.2%2c_bootstrap.min.css%2bplugins%2c_font-awesome-4.7.0%2c_css%2c_font-awesome.min.css%2bplugins%2c_mCustomScrollbar%2c_jquery.mCustomScrollbar.css%2bplugins%2c_O" />
-    <link rel="stylesheet" type="text/css" href="styles/testimonials.css%2btestimonials_responsive.css.pagespeed.cc.30b4bBhwPF.css" />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#100f3a">
+    <meta name="apple-mobile-web-app-title" content="ruriazz">
+    <link rel="apple-touch-icon" href="<?php echo base_url('assets/icons/Icon-192.png'); ?>">
+
+    <meta name="author" content="ruriazz | warkopwarawiri.id">
+    <link rel="icon" href="<?php echo base_url('favicon.ico'); ?>" type="image/x-icon" />
+    <link rel="manifest" href="<?php echo base_url('manifest.json'); ?>">
+
+    <meta name="theme-color" content="#100f3a" />
+    <title>ruriazz | Testimonials</title>
+
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('styles,_bootstrap-4.1.2,_bootstrap.min.css+plugins,_font-awesome-4.7.0,_css,_font-awesome.min.css+plugins,_mCustomScrollbar,_jquery.mCustomScrollbar.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('styles/testimonials.css+testimonials_responsive.css.pagespeed.cc.30b4bBhwPF.css'); ?>" />
     <?php if (isset($src) && $src->css) echo '<link rel="stylesheet" type="text/css" href="'.$src->css.'">'; ?>
 </head>
 
