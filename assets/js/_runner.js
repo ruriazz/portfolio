@@ -1,0 +1,1 @@
+if(app.module) app.module();

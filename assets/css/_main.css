@@ -1,0 +1,32 @@
+body {
+    width: 100vw!important;
+}
+
+.header_content div.logo {
+    transition: all .45s inherit ease-in-out;
+    color: #100f3a;
+}
+
+.header_content div.logo:hover {
+    cursor: pointer;
+    color: #8583e1;
+}
+
+.general_info_icon {
+    width: 21px;
+    height: 21px;
+    margin-right: 8px;
+    font-size: 16px;
+    color: #a9a8ff;
+}
+
+.menu_nav ul li.active a {
+    color: #8583e1!important;
+}
+
+.contact_map {
+    background-color: transparent !important;
+    background-size: cover !important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+}
