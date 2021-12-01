@@ -1,6 +1,7 @@
 {
     "require": {
         "chriskacerguis/codeigniter-restserver": "^3.1",
-        "matthiasmullie/minify": "^1.3"
+        "matthiasmullie/minify": "^1.3",
+        "swiftmailer/swiftmailer": "^6.0"
     }
 }

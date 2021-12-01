@@ -14,16 +14,7 @@ $sapi_type = php_sapi_name();
 if (substr($sapi_type, 0, 3) == 'cgi')
 	header("Status: 404 Not Found");
 else
-	header("HTTP/1.0 404 Not Found");
-
-function sanitize_output($buffer)
-{
-	$search = array('/\>[^\S ]+/s', '/[^\S ]+\</s', '/(\s)+/s', '/<!--(.|\s)*?-->/');
-	$replace = array('>', '<', '\\1', '');
-	$buffer = preg_replace($search, $replace, $buffer);
-
-	return $buffer;
-} ?>
+	header("HTTP/1.0 404 Not Found"); ?>
 
 <!DOCTYPE html>
 <html lang="en">

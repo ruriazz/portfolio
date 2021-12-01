@@ -40,15 +40,14 @@
                     <div class="portfolio_categories button-group filters-button-group">
                         <ul>
                             <li class="portfolio_category active is-checked" data-filter="*">All</li>
-                            <li class="portfolio_category" data-filter=".p_design">Design</li>
-                            <li class="portfolio_category" data-filter=".p_photography">Photography</li>
-                            <li class="portfolio_category" data-filter=".p_brand">Brand Identity</li>
+                            <li class="portfolio_category" data-filter=".p_webapp">Web App</li>
+                            <li class="portfolio_category" data-filter=".p_mobileapp">Mobile App</li>
                         </ul>
                     </div>
                     <div class="main_content_scroll mCustomScrollbar" data-mcs-theme="minimal-dark">
                         <div class="portfolio_grid grid clearfix">
 
-                            <div class="grid-item portfolio_item p_design">
+                            <div class="grid-item portfolio_item p_webapp">
                                 <img src="images/portfolio_1.jpg" alt="">
                                 <div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
                                     <div class="portfolio_item_title">Design</div>
@@ -56,7 +55,7 @@
                                 </div>
                             </div>
 
-                            <div class="grid-item portfolio_item p_photography">
+                            <div class="grid-item portfolio_item p_mobileapp">
                                 <img src="images/portfolio_2.jpg" alt="">
                                 <div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
                                     <div class="portfolio_item_title">Photography</div>
@@ -64,7 +63,7 @@
                                 </div>
                             </div>
 
-                            <div class="grid-item portfolio_item p_brand">
+                            <div class="grid-item portfolio_item p_mobileapp">
                                 <img src="images/portfolio_3.jpg" alt="">
                                 <div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
                                     <div class="portfolio_item_title">Brand Identity</div>
@@ -72,7 +71,7 @@
                                 </div>
                             </div>
 
-                            <div class="grid-item portfolio_item p_design">
+                            <div class="grid-item portfolio_item p_webapp">
                                 <img src="images/portfolio_4.jpg" alt="">
                                 <div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
                                     <div class="portfolio_item_title">Design</div>
@@ -80,7 +79,7 @@
                                 </div>
                             </div>
 
-                            <div class="grid-item portfolio_item p_photography">
+                            <div class="grid-item portfolio_item p_mobileapp">
                                 <img src="images/portfolio_5.jpg" alt="">
                                 <div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
                                     <div class="portfolio_item_title">Photography</div>
@@ -88,7 +87,7 @@
                                 </div>
                             </div>
 
-                            <div class="grid-item portfolio_item p_brand">
+                            <div class="grid-item portfolio_item p_mobileapp">
                                 <img src="images/portfolio_6.jpg" alt="">
                                 <div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
                                     <div class="portfolio_item_title">Brand Identity</div>

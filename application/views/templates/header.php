@@ -1,3 +1,9 @@
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>still under development</strong>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 <header class="header">
     <div class="header_content d-flex flex-row align-items-center justify-content-start">
         <div class="logo">ruriazz</div>
@@ -9,7 +15,6 @@
                 <li><a href="<?php echo base_url('experience'); ?>">Experience</a></li>
                 <li><a href="<?php echo base_url('education'); ?>">Education</a></li>
                 <li><a href="<?php echo base_url('portfolio'); ?>">Portfolio</a></li>
-                <li><a href="<?php echo base_url('testimonials'); ?>">Testimonials</a></li>
                 <li><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
             </ul>
             <div class="header_button ml-auto">
@@ -29,7 +34,6 @@
                         <li><a href="<?php echo base_url('experience'); ?>">Experience</a></li>
                         <li><a href="<?php echo base_url('education'); ?>">Education</a></li>
                         <li><a href="<?php echo base_url('portfolio'); ?>">Portfolio</a></li>
-                        <li><a href="<?php echo base_url('testimonials'); ?>">Testimonials</a></li>
                         <li><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
                     </ul>
                 </div>

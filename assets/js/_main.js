@@ -98,12 +98,8 @@ class Application {
             index = 5;
             break;
 
-        case '/testimonials':
-            index = 6;
-            break;
-
         case '/contact':
-            index = 7;
+            index = 6;
             break;
     
         default:
